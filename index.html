@@ -8,9 +8,10 @@
         <link rel="stylesheet" href="css/font-awesome.css">
         <meta name="description" content="RealtyPro Technologies presents HomeFlare, a Real Estate service" />
         <meta name="author" content="RealtyPro Technologies" />
-        <link href='http://fonts.googleapis.com/css?family=Istok+Web|Lato|Fenix' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Istok+Web|Lato:300,400|Fenix' rel='stylesheet' type='text/css'>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="js/jquery.js" />
+        <script src="js/jquery-ui.js" />
         <link rel="shortcut icon" href="favicon.png" />
     </head>
     <body class="impress-not-supported">
@@ -20,67 +21,90 @@
         <div class="static">
             <div class="logo"> </div>
             <p class="homeflare" >HomeFlare</p>
-            <p class="tagline Lato"><i>The</i> simplest way to 
-                <span class="keyword" > search</span> listings.
+            <p class="tagline Lato">The simplest way to 
+                <b><span style="font-weight:400;" class="keyword" > search</span></b> listings.
             </p>
         </div>
         <div id="impress">
-            <div class="step" data-x="0" data-y="0">
+            <!--<div class="step" data-x="0" data-y="0">
                 <div class="logo"> </div>
                 <p style="font-size:75px; text-shadow: 1px 1px 5px #5B1715;"><b>HomeFlare</b></p> 
             </div>
-            <div class="step" data-x="400" data-y="50" data-rotate="360" >
-                <p>Real Estate just got easier.</p>
-                <div class="house"></div>
+            <div class="step" data-x="400" data-y="200" data-rotate="360" >
+                <p>Starting the conversation just got easier.</p>
+                 <div class="house"></div> 
+            </div>-->
+            <div class="step" id="searching" data-x="8000" data-y="1000" data-rotate="360" data-scale="8" >
+                <i class="icon-comments-alt" style="float:left; font-size:100px; padding-right:25px; padding-top:100px; text-shadow: -5px 5px #5B1715; height:400px;"></i>
+                <p class="listHeader" >Starting the Conversation just got easier.</p> 
             </div>
-            <div class="step" id="searching" data-x="8000" data-y="600" data-rotate="360" data-scale="8" >
+            <div class="step" data-x="5500" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-group" style=" position:absolute; left:-20px; text-shadow: -5px 5px #5B1715; font-size:60px;"></i>
+                 <p>Easily invite prospects to your network.</p>
+            </div>
+            <div class="step" data-x="7300" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-signin" style="float:left; position:absolute; left:-20px; text-shadow: -5px 5px #5B1715; font-size:60px;"></i>
+                 <p >Capture leads from your mobile site &amp; facebook.</p>
+            </div>
+            <div class="step" data-x="9250" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-tags" style="float:left; position:absolute; left:-20px; text-shadow: -5px 5px #5B1715; font-size:60px;"></i>
+                 <p data-jmpress="warp-right">Prioritize and organize your clients with tags. </p>
+            </div>
+            <div class="step" data-x="10800" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-facebook" style="float:left; position:absolute; left:-20px; text-shadow: -5px 5px #5B1715; font-size:60px;"></i>
+                 <p>Convenient login using Facebook.</p>
+            </div>
+
+            <div class="step " data-x="15000" data-y="600"  data-scale="8" >
                 <i class="icon-search" style="float:left; font-size:100px; padding-right:25px; text-shadow: -5px 5px #5B1715;"></i>
-                <p class="listHeader" >Simplified Searching</p> 
+                <p class="listHeader">A Smarter Way to Search</p>
             </div>
-            <div class="step" data-x="6000" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:400px; line-height:60px;" >
-                 <i class="icon-home" style=" position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>Find properties that meet your specification lightning-fast.</p>
+            <div class="step" data-x="13000" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
+                 <i class="icon-time" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Save time using smart searches that autofill based on your client’s wishlist.</p>
             </div>
-            <div class="step" data-x="7600" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:400px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p >Use filtering criteria that you actually need, no fluff.</p>
+            <div class="step" data-x="14775" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
+                 <i class="icon-list-alt" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Independent client wishlist, realtor wishlist.</p>
             </div>
-            <div class="step" data-x="9000" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:400px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p data-jmpress="warp-right">Get more listings to more buyers. </p>
+            <div class="step" data-x="16600" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
+                 <i class="icon-asterisk" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Learn your client with click &amp; search activity notifications.</p>
             </div>
-            <div class="step " data-x="14000" data-y="600"  data-scale="8" >
-                <i class="icon-comment-alt" style="float:left; font-size:100px; padding-right:25px; text-shadow: -5px 5px #5B1715;"></i>
-                <p class="listHeader">Centralized Conversations</p>
-            </div>
-            <div class="step" data-x="12000" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>Keep track of clients and agents, find out what they are busy with and what they need.</p>
-            </div>
-            <div class="step" data-x="14000" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>Use one service to manage your property search, discussions and client info..</p>
-            </div>
-            <div class="step" data-x="16000" data-y="2200" data-z="2000" data-scale="4" style="width:500px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>..so you can keep everyone on the same page.</p>
-            </div>
+
             
-            <div class="step " data-x="21000" data-y="600" data-rotate="360" data-scale="8" >
-                <i class="icon-book" style="float:left; font-size:100px; padding-right:25px; text-shadow: -5px 5px #5B1715;"></i>
-                <p class="listHeader">Streamlined Showings</p>
+            <div class="step " data-x="22000" data-y="600" data-rotate="360" data-scale="8" >
+                <i class="icon-globe" style="float:left; font-size:100px; padding-right:25px; text-shadow: -5px 5px #5B1715;"></i>
+                <p class="listHeader">A Better Way to Share</p>
             </div>
-            <div class="step" data-x="19000" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:600px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>Get Real Estate agents and buyers together and book more meetings to visit listings than ever before.</p>
+            <div class="step" data-x="19000" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-hand-right" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Quick one-click listing sharing. <br /> ( <i class="icon-fire"> </i> flare ) </p>
             </div>
-            <div class="step" data-x="21500" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:600px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p>Don't just get <i>more</i> listings, get the <i>right</i> listings that bring you sales.</p>
+            <div class="step" data-x="20900" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:650px; line-height:60px;" >
+                 <i class="icon-eye-open" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Stay informed. Know when flared listings have been viewed by your clients.</p>
             </div>
-            <div class="step" data-x="23750" data-y="2200" data-z="2000" data-scale="4" data-rotate="360"  style="width:600px; line-height:60px;" >
-                 <i class="icon-home" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
-                 <p class="noticed">Sell properties with..</p>
+            <div class="step" data-x="23200" data-y="2200" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-comments" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Fluid conversation keeps you and client on same page</p>
+            </div>
+
+            <div class="step " data-x="29000" data-y="600" data-rotate="360" data-scale="8"  >
+                <i class="icon-calendar" style="float:left; font-size:100px; padding-right:25px; text-shadow: -5px 5px #5B1715;"></i>
+                <p class="listHeader">Schedule Showings the Right Way</p>
+            </div>
+            <div class="step" data-x="27000" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-list-ol" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Schedule showings for multiple listings in a single 3-step process.</p>
+            </div>
+            <div class="step" data-x="29000" data-y="2600" data-z="2000" data-scale="4" data-rotate="360" style="width:500px; line-height:60px;" >
+                 <i class="icon-envelope-alt" style="float:left; position:absolute; left:-10px; text-shadow: -5px 5px #5B1715;"></i>
+                 <p>Contact listing agents and invite clients simultaneously.</p>
+            </div>
+
+            <div class="step" data-x="32500" data-y="2200" data-z="8000" data-scale="4" data-rotate="360"  style="width:400px; line-height:60px;" >
+                 <p class="noticed">and sell properties with..</p>
             </div>
             <div id="title" class="step" data-x="0" data-y="0">
             </div>
@@ -116,12 +140,33 @@
                 <p>See the future of Real Estate..</p>
             </div>
         </div>
-        <!-- Impress.js NO AUTO-SCROLL
+        <!-- Impress.js NO AUTO-SCROLL 
 
             <script src="js/impress.js"> </script>
             <script src="js/jmpress.js"> </script>
             <script>impress().init();</script>
-        -->
+            <script type="text/javascript">                
+            var tag = "search";
+            setInterval(function(){
+                
+                if (tag == "search") {
+                    tag = "show";
+                } else if (tag == "show") {
+                    tag = "share";
+                } else {
+                    tag = "search";
+                }
+                $(".keyword").fadeOut("slow", function(){
+                    $(".keyword").empty();
+                    $(".keyword").append(tag);
+                    $(".keyword").fadeIn("slow", function(){
+                        $(".keyword").animate({color: "#000"}, 100);
+                    });
+                    
+                });
+            }, 4000);
+            </script> -->
+        
 
         <!-- Impress.js w/ AUTO-SCROLL -->
 
@@ -148,12 +193,12 @@
                     $(".keyword").empty();
                     $(".keyword").append(tag);
                     $(".keyword").fadeIn("slow", function(){
-                     
+                        $(".keyword").animate({color: "#000"}, 100);
                     });
                     
                 });
-            }, 5000);
+            }, 4000); 
             
-        </script>
+        </script> 
     </body>
 </html>

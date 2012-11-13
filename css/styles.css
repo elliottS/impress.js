@@ -50,7 +50,7 @@ table {
 body {
     font-family: 'Istok Web', Verdana, sans-serif;
     min-height: 740px;
-    background: url("../img/bg.jpg") no-repeat;
+    background: url("../img/bg.jpg") repeat-y;
 }
 
 b, strong { font-weight: bold }
@@ -107,7 +107,7 @@ a:focus {
     -o-box-sizing:      border-box;
     box-sizing:         border-box;
 
-    font-family: 'Istok Web', Verdana, sans-serif;
+    font-family: 'Lato', Verdana, sans-serif;
     font-size:48px;
     text-shadow:2px 2px 0px  #5B1715;
     line-height: 2;
@@ -173,10 +173,11 @@ a:focus {
     text-shadow:-5px 5px  #5b1715;
 }
 .tagline {
+    font-family:"Lato", Verdana;
+    font-weight:300;
     margin-top:50px;
     color:#fff;
     float:right;
-    font-weight:bold;
     text-shadow:2px 2px #5b1715;
     font-size:50px;
     padding-right:25px;
@@ -188,25 +189,18 @@ a:focus {
     display:inline-block;
 }
 .highlight {
-    -webkit-transition: .75s;
-    -moz-transition:    .75s;
-    -ms-transition:     .75s;
-    -o-transition:      .75s;
-    transition:         .75s;
+    -webkit-transform: scale(.75);
+    -moz-transform:    scale(.75);
+    -ms-transform:     scale(.75);
+    -o-transform:      scale(.75);
+    transform:         scale(.75);
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
 
-    color:#89d4da;
-}
-.desaturate {
-    -webkit-transition: .75s;
-    -moz-transition:    .75s;
-    -ms-transition:     .75s;
-    -o-transition:      .75s;
-    transition:         .75s;
-    transition-delay: .75s;
-    -moz-transition-delay: .75s; /* Firefox 4 */
-    -webkit-transition-delay: .75s; /* Safari and Chrome */
-    -o-transition-delay: .75s; /* Opera */
-    color:#fff;
+    color:#000;
 }
 .fullLogo {
     background:url('../img/logoFull.png') no-repeat;
@@ -215,12 +209,13 @@ a:focus {
     float:left;
 }
 .logo {
-    background:url('../img/logo.png') no-repeat;
-    height:110px;
-    width:110px;
+    background:url('../img/logosm.png') no-repeat;
+    height:114px;
+    width:109px;
     float:left;
+    margin-right:20px;
     margin-left:75px;
-    margin-top:10px;
+    margin-top:15px;
 }
 .house {
     background:url("../img/house.png") no-repeat;
@@ -228,8 +223,8 @@ a:focus {
     width:200px;
     margin-left:25px;
     position:absolute;
-    left:650px;
-    top:-50px;
+    left:150px;
+    top:100px;
 }
 .convo {
     background:url("../img/convo.jpg") no-repeat;
@@ -260,7 +255,7 @@ a:focus {
     top:345px;
 }
 .listHeader {
-    font-family:"Fenix", Verdana, sans-serif;
+    font-family:"Istok Web", Verdana, sans-serif;
     font-size:100px;
     line-height:100px;
     text-shadow:-5px 5px #5B1715;
